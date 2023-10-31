@@ -7,6 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CharsComponent implements OnInit{
 
+imageChars: string = '../../../assets/rick.png';
+nameChars: string = 'Rick';
+speciesChars: string = 'Human';
+
+
   constructor() {}
 
   ngOnInit(): void {}

@@ -6,3 +6,26 @@ main {
     align-items: center;
     justify-content: center;
 }
+
+main .chars {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main .chars .filters {
+    margin-top: 20px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 240px);
+    gap: 20px;
+}
+
+main .chars .chars-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 240px);
+    gap: 20px;
+    margin-top: 60px;
+}
