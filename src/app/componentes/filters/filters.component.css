@@ -17,3 +17,11 @@
     font-weight: 400;
     line-height: 150%;
 }
+
+
+.logoDiv {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
