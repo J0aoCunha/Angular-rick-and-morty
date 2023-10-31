@@ -1,0 +1,19 @@
+.filters {
+    margin-top: 20px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 240px);
+    gap: 20px;
+}
+
+.filters .filter {
+    padding: 10px 20px;
+    background: transparent;
+    border: 1px solid #2196f3;
+    border-radius: 5px;
+
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
