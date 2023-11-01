@@ -1,4 +1,4 @@
-import { Char } from "./chars.model";
+import { Char } from './chars.model';
 
 export interface CharsResponse {
     results: Char[];

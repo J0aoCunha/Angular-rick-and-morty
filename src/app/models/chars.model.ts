@@ -1,7 +1,7 @@
-import { Origin } from "./origin.model";
+import { Origin } from './origin.model';
 
 export interface Char {
-    id: number;
+    id: string;
     name: string;
     status: string;
     species: string;

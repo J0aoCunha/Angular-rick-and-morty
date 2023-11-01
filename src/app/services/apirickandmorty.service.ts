@@ -1,14 +1,14 @@
-import { HttpClient } from "@angular/common/http";
-import { Injectable } from "@angular/core";
-import { Observable } from "rxjs";
-import { CharsResponse } from "src/app/models/Charsresponse.model";
+import { HttpClient } from '@angular/common/http';
+import { Injectable } from '@angular/core';
+import { Observable } from 'rxjs';
+import { CharsResponse } from 'src/app/models/Charsresponse.model';
 
 @Injectable({
-	providedIn: "root"
+	providedIn: 'root'
 })
 export class ApirickandmortyService {
 
-	private linkApi = "https://rickandmortyapi.com/api/";
+	private linkApi = 'https://rickandmortyapi.com/api/';
 
 	constructor(private httpClient: HttpClient) {
 
