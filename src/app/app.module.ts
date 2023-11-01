@@ -9,6 +9,7 @@ import { EpisodesComponent } from './pages/episodes/episodes.component';
 import { MenuBarComponent } from './componentes/menu-bar/menu-bar.component';
 import { FiltersComponent } from './componentes/filters/filters.component';
 import { CharsComponent } from './componentes/chars/chars.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { CharsComponent } from './componentes/chars/chars.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

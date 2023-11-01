@@ -5,7 +5,9 @@
             <app-filters></app-filters>
         </div>
         <div class="chars-container">
-            <app-chars></app-chars>
+            <app-chars *ngFor="let chars of char" nameChars="{{chars.name}}" imageChars="{{chars.image}}"
+                id="{{chars.id}}" speciesChars="{{chars.species}}"></app-chars>
         </div>
+
     </section>
 </main>

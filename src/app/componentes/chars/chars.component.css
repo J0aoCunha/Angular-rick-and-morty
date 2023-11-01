@@ -19,6 +19,7 @@
     font-weight: 500;
     line-height: 1.875rem;
     letter-spacing: 0.00938rem;
+    text-wrap: nowrap;
 }
 
 .char .char-info span {
