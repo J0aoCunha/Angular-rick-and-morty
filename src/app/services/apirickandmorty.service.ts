@@ -1,7 +1,7 @@
-import { Injectable } from "@angular/core";
 import { HttpClient } from "@angular/common/http";
-import { CharsResponse } from "src/app/models/Charsresponse.model";
+import { Injectable } from "@angular/core";
 import { Observable } from "rxjs";
+import { CharsResponse } from "src/app/models/Charsresponse.model";
 
 @Injectable({
 	providedIn: "root"
@@ -14,9 +14,9 @@ export class ApirickandmortyService {
 
 	}
 
-	obterPersoangens(): Observable<CharsResponse> {
+	obterPersonagens(page: number): Observable<CharsResponse> {
 
-		return this.httpClient.get<CharsResponse>(`${this.linkApi}/character`);
+		return this.httpClient.get<CharsResponse>(`${this.linkApi}/character/?page=${page}`);
 	}
 
 }

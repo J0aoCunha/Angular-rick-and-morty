@@ -11,16 +11,24 @@ import { ApirickandmortyService } from "../../services/apirickandmorty.service";
 
 export class HomeComponent {
 
-	char: Char[] = [];
 
+	char: Char[] = [];
+	page: number = 1;
 
 	constructor(private apirickandmortyService: ApirickandmortyService) {
 		this.getChars();
 	}
 
 	getChars() {
-		this.apirickandmortyService.obterPersoangens().subscribe(response => {
+		this.apirickandmortyService.obterPersonagens(this.page).subscribe(response => {
 			this.char = response.results;
+		});
+	}
+
+	loadMore() {
+		this.apirickandmortyService.obterPersonagens(this.page + 1).subscribe(response => {
+			this.char = [...this.char, ...response.results];
+			this.page++;
 		});
 	}
 
