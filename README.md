@@ -2,7 +2,7 @@
 
 ## Visão Geral
 
-Este é um projeto de um site do Rick and Morty construído usando Angular e a API oficial da série. O site foi criado com o objetivo de estudar e melhorar meu entidmento com o Angular, no site teremos informações sobre personagens, episódios e locais da série.
+Este é um projeto de um site do Rick and Morty construído usando Angular e a API oficial da série. O site foi criado com o objetivo de estudar e melhorar meu entendimento com o Angular, no site teremos informações sobre personagens, episódios e locais da série.
 
 ## Funcionalidades
 
