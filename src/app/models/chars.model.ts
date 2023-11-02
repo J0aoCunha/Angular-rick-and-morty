@@ -1,12 +1,15 @@
-import { Origin } from './origin.model';
-
 export interface Char {
-    id: string;
+  id: string;
+  name: string;
+  status: string;
+  species: string;
+  type: string;
+  gender: string;
+  origin: {
     name: string;
-    status: string;
-    species: string;
-    gender: string;
-    origin: Origin;
-    location: Location;
-    image: string;
+  };
+  location: {
+    name: string;
+  };
+  image: string;
 }
