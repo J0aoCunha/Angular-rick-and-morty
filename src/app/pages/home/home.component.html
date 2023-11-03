@@ -1,19 +1,19 @@
-  <app-menu-bar></app-menu-bar>
-  <main>
-  
-    <section class="chars">
-        <img src="../../../assets/PngItem_438051 1.png" alt="">
-        <div class="filters">
-            <app-filters></app-filters>
-        </div>
-        <div class="chars-container">
-            <app-chars *ngFor="let chars of char" nameChars="{{chars.name}}" imageChars="{{chars.image}}"
-                id="{{chars.id}}" speciesChars="{{chars.species}}"></app-chars>
-        </div>
+<main>
+  <section class="chars">
+    <img src="../../../assets/PngItem_438051 1.png" alt="" />
+    <div class="filters">
+      <app-filters></app-filters>
+    </div>
+    <div class="chars-container">
+      <app-chars
+        *ngFor="let chars of char"
+        nameChars="{{ chars.name }}"
+        imageChars="{{ chars.image }}"
+        id="{{ chars.id }}"
+        speciesChars="{{ chars.species }}"
+      ></app-chars>
+    </div>
 
-        <button type="button" class="load" (click)="loadMore()">
-            load more
-        </button>
-
-    </section>
+    <button type="button" class="load" (click)="loadMore()">load more</button>
+  </section>
 </main>
