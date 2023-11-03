@@ -11,6 +11,8 @@ import { EpisodesComponent } from './pages/episodes/episodes.component';
 import { HomeComponent } from './pages/home/home.component';
 import { LocationsComponent } from './pages/locations/locations.component';
 import { ContentcharsComponent } from './pages/contentchars/contentchars.component';
+import { FiltersLocationsComponent } from './componentes/filters-locations/filters-locations.component';
+import { CardLocationComponent } from './componentes/card-location/card-location.component';
 
 
 
@@ -24,7 +26,9 @@ import { ContentcharsComponent } from './pages/contentchars/contentchars.compone
 		MenuBarComponent,
 		FiltersComponent,
 		CharsComponent,
-		ContentcharsComponent
+		ContentcharsComponent,
+  FiltersLocationsComponent,
+  CardLocationComponent
 	],
 	imports: [
 		BrowserModule,

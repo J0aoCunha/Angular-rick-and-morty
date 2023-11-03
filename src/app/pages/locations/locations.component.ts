@@ -12,8 +12,7 @@ export class LocationsComponent {
   page: number = 1;
 
   constructor(private locationsService: LocationsService) {
-    console.log(locationsService.obterLocations());
-    console.log(this.getLocations());
+    this.getLocations();
   }
   getLocations() {
     this.locationsService.obterLocations().subscribe((response) => {
