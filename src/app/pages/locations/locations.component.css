@@ -25,3 +25,14 @@ main > section {
 
   margin-top: 20px;
 }
+
+.card-locations {
+  display: grid;
+  grid-template-columns: repeat(4, 280px);
+  width: 100%;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+  flex: 1;
+}

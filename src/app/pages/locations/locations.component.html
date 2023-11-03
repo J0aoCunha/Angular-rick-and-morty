@@ -6,5 +6,12 @@
     <div class="filters">
       <app-filters-locations></app-filters-locations>
     </div>
+    <div class="card-locations">
+      <app-card-location
+        *ngFor="let location of locations"
+        name="{{ location.name }}"
+        type="{{ location.type }}"
+      ></app-card-location>
+    </div>
   </section>
 </main>
