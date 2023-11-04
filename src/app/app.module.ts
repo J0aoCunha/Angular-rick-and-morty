@@ -13,6 +13,7 @@ import { LocationsComponent } from './pages/locations/locations.component';
 import { ContentcharsComponent } from './pages/contentchars/contentchars.component';
 import { FiltersLocationsComponent } from './componentes/filters-locations/filters-locations.component';
 import { CardLocationComponent } from './componentes/card-location/card-location.component';
+import { ButtonMoreComponent } from './componentes/button-more/button-more.component';
 
 
 
@@ -28,7 +29,8 @@ import { CardLocationComponent } from './componentes/card-location/card-location
 		CharsComponent,
 		ContentcharsComponent,
   FiltersLocationsComponent,
-  CardLocationComponent
+  CardLocationComponent,
+  ButtonMoreComponent
 	],
 	imports: [
 		BrowserModule,
