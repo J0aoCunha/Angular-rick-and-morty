@@ -11,7 +11,9 @@ export class LocationsService {
 
   constructor(private httpClient: HttpClient) {}
 
-  obterLocations(): Observable<locationsResponse> {
-    return this.httpClient.get<locationsResponse>(`${this.linkApi}/location`);
+  obterLocations(page: number): Observable<locationsResponse> {
+    return this.httpClient.get<locationsResponse>(
+      `${this.linkApi}/location/?page=${page}`,
+    );
   }
 }

@@ -6,6 +6,7 @@
     </div>
     <div class="chars-container">
       <app-chars
+        [routerLink]="['contentchars', chars.id]"
         *ngFor="let chars of char"
         nameChars="{{ chars.name }}"
         imageChars="{{ chars.image }}"

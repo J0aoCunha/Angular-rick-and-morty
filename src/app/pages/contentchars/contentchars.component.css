@@ -22,22 +22,6 @@
   top: 50px;
 }
 
-.header-back a {
-  display: flex;
-  gap: 12px;
-}
-
-.header-back a span {
-  color: #000;
-
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-
-  text-align: center;
-}
-
 .header-char {
   width: 600px;
   height: 500px;

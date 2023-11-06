@@ -6,6 +6,7 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./card-location.component.css'],
 })
 export class CardLocationComponent {
+  @Input() id: string = '';
   @Input() name: string = '';
   @Input() type: string = '';
 

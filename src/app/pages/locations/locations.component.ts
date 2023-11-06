@@ -15,10 +15,17 @@ export class LocationsComponent {
     this.getLocations();
   }
   getLocations() {
-    this.locationsService.obterLocations().subscribe((response) => {
+    this.locationsService.obterLocations(this.page).subscribe((response) => {
       this.locations = response.results;
-
-      console.log(this.locations);
     });
+  }
+
+  loadmore() {
+    this.locationsService
+      .obterLocations(this.page + 1)
+      .subscribe((response) => {
+        this.locations = [...this.locations, ...response.results];
+        this.page++;
+      });
   }
 }

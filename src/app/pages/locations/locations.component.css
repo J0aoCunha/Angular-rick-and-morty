@@ -13,7 +13,7 @@ main > section {
   align-items: center;
   justify-content: center;
 
-  margin-bottom: 50px;
+  /* margin-bottom: 25px; */
 }
 
 .filters {
@@ -31,11 +31,11 @@ main > section {
   display: grid;
   grid-template-columns: repeat(4, 280px);
   width: 100%;
-  gap: 20px;
+  gap: 32px;
   align-items: center;
   justify-content: center;
   margin-top: 70px;
   flex: 1;
 
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }

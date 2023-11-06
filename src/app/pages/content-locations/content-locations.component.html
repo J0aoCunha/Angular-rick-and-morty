@@ -1,0 +1,33 @@
+<section class="content-container">
+  <header class="content-header">
+    <div class="header-back">
+      <app-button-return [routerLink]="['/locations']"></app-button-return>
+    </div>
+    <div class="header-location-info">
+      <div class="header-name-location">
+        <h1>Earth (Replacement Dimension)</h1>
+      </div>
+      <div class="header-type-location">
+        <div>
+          <h3>Type</h3>
+          <span>Planet</span>
+        </div>
+        <div>
+          <h3>Dimension</h3>
+          <span>Replacement Dimension</span>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="residents">
+    <h2>Residents</h2>
+  </div>
+  <main class="chars-container">
+    <app-chars
+      nameChars="rick"
+      imageChars="../../../assets/rick.png"
+      id="1"
+      speciesChars="human"
+    ></app-chars>
+  </main>
+</section>
