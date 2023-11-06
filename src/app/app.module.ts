@@ -14,30 +14,27 @@ import { ContentcharsComponent } from './pages/contentchars/contentchars.compone
 import { FiltersLocationsComponent } from './componentes/filters-locations/filters-locations.component';
 import { CardLocationComponent } from './componentes/card-location/card-location.component';
 import { ButtonMoreComponent } from './componentes/button-more/button-more.component';
-
-
-
+import { ContentLocationsComponent } from './pages/content-locations/content-locations.component';
+import { ButtonReturnComponent } from './componentes/button-return/button-return.component';
 
 @NgModule({
-	declarations: [
-		AppComponent,
-		HomeComponent,
-		LocationsComponent,
-		EpisodesComponent,
-		MenuBarComponent,
-		FiltersComponent,
-		CharsComponent,
-		ContentcharsComponent,
-  FiltersLocationsComponent,
-  CardLocationComponent,
-  ButtonMoreComponent
-	],
-	imports: [
-		BrowserModule,
-		AppRoutingModule,
-		HttpClientModule
-	],
-	providers: [],
-	bootstrap: [AppComponent]
+  declarations: [
+    AppComponent,
+    HomeComponent,
+    LocationsComponent,
+    EpisodesComponent,
+    MenuBarComponent,
+    FiltersComponent,
+    CharsComponent,
+    ContentcharsComponent,
+    FiltersLocationsComponent,
+    CardLocationComponent,
+    ButtonMoreComponent,
+    ContentLocationsComponent,
+    ButtonReturnComponent,
+  ],
+  imports: [BrowserModule, AppRoutingModule, HttpClientModule],
+  providers: [],
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
