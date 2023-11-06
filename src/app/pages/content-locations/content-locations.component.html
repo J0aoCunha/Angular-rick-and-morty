@@ -5,16 +5,16 @@
     </div>
     <div class="header-location-info">
       <div class="header-name-location">
-        <h1>Earth (Replacement Dimension)</h1>
+        <h1>{{ nameEarth }}</h1>
       </div>
       <div class="header-type-location">
         <div>
           <h3>Type</h3>
-          <span>Planet</span>
+          <span>{{ typeName }}</span>
         </div>
         <div>
           <h3>Dimension</h3>
-          <span>Replacement Dimension</span>
+          <span>{{ dimensionName }}</span>
         </div>
       </div>
     </div>
@@ -22,12 +22,13 @@
   <div class="residents">
     <h2>Residents</h2>
   </div>
-  <main class="chars-container">
+  <!-- <main class="chars-container">
     <app-chars
+      *ngFor="let char of residents"
       nameChars="rick"
       imageChars="../../../assets/rick.png"
       id="1"
       speciesChars="human"
     ></app-chars>
-  </main>
+  </main> -->
 </section>

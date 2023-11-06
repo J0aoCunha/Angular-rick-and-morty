@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { Char } from 'src/app/models/chars.model';
 import { ApirickandmortyService } from 'src/app/services/apirickandmorty.service';
 
 @Component({
