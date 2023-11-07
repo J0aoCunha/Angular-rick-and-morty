@@ -9,17 +9,17 @@ import { Char } from '../models/chars.model';
   providedIn: 'root',
 })
 export class LocationsService {
-  private linkApi = 'https://rickandmortyapi.com/api';
+  private linkApi = 'https://rickandmortyapi.com/api/location/';
 
   constructor(private httpClient: HttpClient) {}
 
   obterLocations(page: number): Observable<locationsResponse> {
     return this.httpClient.get<locationsResponse>(
-      `${this.linkApi}/location/?page=${page}`,
+      `${this.linkApi}/?page=${page}`,
     );
   }
 
-  getLocationsInfo(id: number): Observable<Location> {
-    return this.httpClient.get<Location>(`${this.linkApi}/location/${id}`);
+  getLocationDetails(id: number): Observable<Location> {
+    return this.httpClient.get<Location>(`${this.linkApi}${id}`);
   }
 }

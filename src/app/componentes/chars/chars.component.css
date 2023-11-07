@@ -14,15 +14,23 @@
 .char .char-info {
   padding: 10px;
 
-  font-size: 1.25rem;
+  color: rgba(0, 0, 0, 0.87);
+
+  font-size: 15px;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.875rem;
-  letter-spacing: 0.00938rem;
-  text-wrap: nowrap;
+  line-height: 30px;
+  letter-spacing: 0.15px;
 }
 
 .char .char-info span {
   display: block;
   margin-top: 5px;
+  color: rgba(0, 0, 0, 0.6);
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.25px;
 }

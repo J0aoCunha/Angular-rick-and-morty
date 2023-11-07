@@ -41,10 +41,10 @@
   justify-content: center;
 }
 
-.header-location-info .header-name-location {
+.header-location-info .header-name-location h1 {
   color: #081f32;
   text-align: center;
-  font-size: 28px;
+  font-size: 38px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -84,7 +84,7 @@
   justify-content: center;
   gap: 20px;
   margin-top: 25px;
-  margin-bottom: 25px;
+  padding-bottom: 50px;
 }
 
 .residents {

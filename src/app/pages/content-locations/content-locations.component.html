@@ -22,13 +22,15 @@
   <div class="residents">
     <h2>Residents</h2>
   </div>
-  <!-- <main class="chars-container">
+  <main class="chars-container">
     <app-chars
-      *ngFor="let char of residents"
-      nameChars="rick"
-      imageChars="../../../assets/rick.png"
-      id="1"
-      speciesChars="human"
-    ></app-chars>
-  </main> -->
+      [routerLink]="['/contentchars', resident.id]"
+      *ngFor="let resident of residents"
+      id="{{ resident.id }}"
+      nameChars="{{ resident.name }}"
+      imageChars="{{ resident.image }}"
+      speciesChars="{{ resident.species }}"
+    >
+    </app-chars>
+  </main>
 </section>
