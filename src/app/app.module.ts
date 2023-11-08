@@ -16,6 +16,8 @@ import { CardLocationComponent } from './componentes/card-location/card-location
 import { ButtonMoreComponent } from './componentes/button-more/button-more.component';
 import { ContentLocationsComponent } from './pages/content-locations/content-locations.component';
 import { ButtonReturnComponent } from './componentes/button-return/button-return.component';
+import { CardEpisodesComponent } from './componentes/card-episodes/card-episodes.component';
+import { FiltrosEpisodesComponent } from './componentes/filtros-episodes/filtros-episodes.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +34,8 @@ import { ButtonReturnComponent } from './componentes/button-return/button-return
     ButtonMoreComponent,
     ContentLocationsComponent,
     ButtonReturnComponent,
+    CardEpisodesComponent,
+    FiltrosEpisodesComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],
