@@ -3,7 +3,6 @@ import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { locationsResponse } from '../models/locationresponse.model';
 import { Location } from '../models/Location.model';
-import { Char } from '../models/chars.model';
 
 @Injectable({
   providedIn: 'root',
