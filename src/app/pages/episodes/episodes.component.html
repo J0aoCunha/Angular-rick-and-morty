@@ -1,1 +1,19 @@
-<p>episodes works!</p>
+<main>
+  <section>
+    <div class="logo-image">
+      <img src="../../../assets/rick-and-morty2 1.png" />
+    </div>
+    <div class="filters">
+      <app-filtros-episodes></app-filtros-episodes>
+    </div>
+    <div class="card-episodes">
+      <app-card-episodes
+        *ngFor="let episode of episodes"
+        nameEpisodes="{{ episode.name }}"
+        date="{{ episode.air_date }}"
+        seasonEpisodes="{{ episode.episode }}"
+      ></app-card-episodes>
+    </div>
+    <app-button-more (click)="loadmore()"></app-button-more>
+  </section>
+</main>

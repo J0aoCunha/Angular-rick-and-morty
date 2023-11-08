@@ -1,0 +1,25 @@
+.filters {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.filters .filter {
+  width: 500px;
+  padding: 16px;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  align-self: stretch;
+
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+
+  color: var(--grey, rgba(0, 0, 0, 0.5));
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
