@@ -18,6 +18,7 @@ import { ContentLocationsComponent } from './pages/content-locations/content-loc
 import { ButtonReturnComponent } from './componentes/button-return/button-return.component';
 import { CardEpisodesComponent } from './componentes/card-episodes/card-episodes.component';
 import { FiltrosEpisodesComponent } from './componentes/filtros-episodes/filtros-episodes.component';
+import { ContentEpisodesComponent } from './pages/content-episodes/content-episodes.component';
 
 @NgModule({
   declarations: [
@@ -36,6 +37,7 @@ import { FiltrosEpisodesComponent } from './componentes/filtros-episodes/filtros
     ButtonReturnComponent,
     CardEpisodesComponent,
     FiltrosEpisodesComponent,
+    ContentEpisodesComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],

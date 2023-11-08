@@ -9,6 +9,8 @@
     <div class="card-episodes">
       <app-card-episodes
         *ngFor="let episode of episodes"
+        [routerLink]="['contentepisode', episode.id]"
+        id="{{ episode.id }}"
         nameEpisodes="{{ episode.name }}"
         date="{{ episode.air_date }}"
         seasonEpisodes="{{ episode.episode }}"

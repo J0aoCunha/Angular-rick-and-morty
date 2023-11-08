@@ -5,6 +5,7 @@ import { ContentcharsComponent } from './pages/contentchars/contentchars.compone
 import { LocationsComponent } from './pages/locations/locations.component';
 import { EpisodesComponent } from './pages/episodes/episodes.component';
 import { ContentLocationsComponent } from './pages/content-locations/content-locations.component';
+import { ContentEpisodesComponent } from './pages/content-episodes/content-episodes.component';
 
 const routes: Routes = [
   {
@@ -26,6 +27,10 @@ const routes: Routes = [
   {
     path: 'episodes',
     component: EpisodesComponent,
+  },
+  {
+    path: 'episodes/contentepisode/:id',
+    component: ContentEpisodesComponent,
   },
 ];
 
