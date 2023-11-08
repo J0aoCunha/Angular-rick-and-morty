@@ -1,8 +1,8 @@
-#  Rick and Morty 
+# Rick and Morty Fan Site
 
 ## Visão Geral
 
-Este é um projeto de um site do Rick and Morty construído usando Angular e a API oficial da série. O site foi criado com o objetivo de estudar e melhorar meu entendimento com o Angular, no site teremos informações sobre personagens, episódios e locais da série.
+Este é um projeto de um site do Rick and Morty construído usando Angular e a API oficial da série. O site foi criado como um hobby para os fãs da série que desejam explorar informações sobre personagens, episódios e locais da série.
 
 ## Funcionalidades
 
@@ -12,11 +12,7 @@ Este é um projeto de um site do Rick and Morty construído usando Angular e a A
 
 ## Como Usar
 
-1. Abra o [Site]()
-2. Divirta-se
-
-## linguagens Usadas
- <img align="center" alt="Ts" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
- 
- ## frameWork
-  <img align="center" alt="Angular" height="30" width="40"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" />
+1. Clone este repositório.
+2. Instale as dependências usando `npm install`.
+3. Inicie o servidor de desenvolvimento com `ng serve`.
+4. Acesse o site em seu navegador em [http://localhost:4200/](http://localhost:4200/).
