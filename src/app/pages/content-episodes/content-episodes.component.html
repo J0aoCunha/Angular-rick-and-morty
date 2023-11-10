@@ -1,1 +1,34 @@
-<p>content-episodes works!</p>
+<section class="content-container">
+  <header class="content-header">
+    <div class="header-back">
+      <app-button-return [routerLink]="['/episodes']"></app-button-return>
+    </div>
+    <div class="header-episodes-info">
+      <div class="header-name-episodes">
+        <h1>{{ nameEpisode }}</h1>
+      </div>
+      <div class="header-type-episodes">
+        <div>
+          <h3>Episode</h3>
+          <span>{{ EpisodesSeason }}</span>
+        </div>
+        <div>
+          <h3>Date</h3>
+          <span>{{ Date }}</span>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="Cast">
+    <h2>Cast</h2>
+  </div>
+  <main class="chars-container">
+    <app-chars
+      *ngFor="let casts of Cast"
+      nameChars="{{ casts.name }}"
+      imageChars="{{ casts.image }}"
+      speciesChars="{{ casts.species }}"
+      id="{{ casts.id }}"
+    ></app-chars>
+  </main>
+</section>
