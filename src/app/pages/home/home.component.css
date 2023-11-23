@@ -17,8 +17,9 @@ main .chars {
 main .chars .filters {
   margin-top: 20px;
   width: 100%;
-  display: grid;
-  grid-template-columns: repeat(4, 240px);
+  display:flex;
+  align-items: center;
+  justify-content: center;
   gap: 20px;
 }
 

@@ -1,12 +1,14 @@
 .filters {
   margin-top: 20px;
   width: 100%;
-  display: grid;
-  grid-template-columns: repeat(4, 240px);
-  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .filters .filter {
+  width: 600px;
   padding: 10px 20px;
   background: transparent;
   border: 1px solid #2196f3;
@@ -15,11 +17,4 @@
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
-}
-
-.logoDiv {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
 }

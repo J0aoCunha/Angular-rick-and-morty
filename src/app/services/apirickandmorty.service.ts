@@ -27,4 +27,9 @@ export class ApirickandmortyService {
   getCharacterDetailsByUrl(url: string): Observable<CharsResponse> {
     return this.httpClient.get<CharsResponse>(url);
   }
+
+
+  getdetails(name: string): Observable<Char> {
+    return this.httpClient.get<Char>(`${this.linkApi}?name=${name}`);
+  }
 }

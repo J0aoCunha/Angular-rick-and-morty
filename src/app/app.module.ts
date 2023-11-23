@@ -19,6 +19,7 @@ import { ButtonReturnComponent } from './componentes/button-return/button-return
 import { CardEpisodesComponent } from './componentes/card-episodes/card-episodes.component';
 import { FiltrosEpisodesComponent } from './componentes/filtros-episodes/filtros-episodes.component';
 import { ContentEpisodesComponent } from './pages/content-episodes/content-episodes.component';
+import {  FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,7 @@ import { ContentEpisodesComponent } from './pages/content-episodes/content-episo
     FiltrosEpisodesComponent,
     ContentEpisodesComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, HttpClientModule],
+  imports: [BrowserModule, AppRoutingModule, HttpClientModule, FormsModule, ReactiveFormsModule],
   providers: [],
   bootstrap: [AppComponent],
 })
