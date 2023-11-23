@@ -16,3 +16,7 @@ Este é um projeto de um site do Rick and Morty construído usando Angular e a A
 2. Instale as dependências usando `npm install`.
 3. Inicie o servidor de desenvolvimento com `ng serve`.
 4. Acesse o site em seu navegador em [http://localhost:4200/](http://localhost:4200/).
+
+
+## Ou acesse
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7e0fa408-700b-47c6-9bdc-4644fec63cae/deploy-status)](https://j0aocunha-angular-rick-and-morty.netlify.app/)
